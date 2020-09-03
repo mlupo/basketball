@@ -3,7 +3,7 @@
 ## _
 ### Create/ Choose Background 
 First, we are going to create a background for the game. To do this, go into the ToolBox and find the ``||scene:Scene||`` category. 
-Then locate the block that says ``||scene:set background image to||`` and click and drag it onto your start block. 
+Then locate the block that says ``||scene:set background image to||`` and click and drag it onto your ``||loops:on start||`` block. 
 By clicking on the white square an image editor will open up. Select the **Gallery** option at the top of the screen and select a background that you like, you may further edit any of the premade backgrounds.
 
 Click **Done** when you are finished and the new background you chose will show up in the simulator on the left side of the screen. 
@@ -590,7 +590,6 @@ superStar.setVelocity(50, 0)
 ```
 
 ## _
-### 
 Next, we want the sprite to stay on the screen at all times. We will need to go to ``||sprites:Sprites||`` and find ``||sprites:set my sprite to stay on screen||``.
 Grab that block and drag in under the rest of the code. Ensure that the button is turned **ON** to ensure the sprite stays on the screen.
 Using the drop down menu from **stay on screen** we are going to select it to change it to **bounce on wall**. 
