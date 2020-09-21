@@ -1,10 +1,15 @@
-# basketball
+# Basketball!
+
+## Let's make a Basketball Game! @unplugged
+In this session we will do our best to make a kind of "Free Throw" style Basketball game!
+
+In this game, your player will move back and forth, while trying to throw the ball into the net.
 
 ## _
 ### Create/ Choose Background 
 First, we are going to create a background for the game. To do this, go into the ToolBox and find the ``||scene:Scene||`` category. 
 Then locate the block that says ``||scene:set background image to||`` and click and drag it onto your ``||loops:on start||`` block. 
-By clicking on the white square an image editor will open up. Select the **Gallery** option at the top of the screen and select a background that you like, you may further edit any of the premade backgrounds.
+By clicking on the white square an image editor will open up. Try to draw your own Basketball key, or select the **Gallery** option at the top of the screen and select a background that you like.  
 
 Click **Done** when you are finished and the new background you chose will show up in the simulator on the left side of the screen. 
 
@@ -135,9 +140,8 @@ scene.setBackgroundImage(img`
 
 ## _
 ### Create/ Choose Sprite 
-The next step is to create the main playable character for the game, called a ``||sprites:Sprite||``. 
 In the toolbox click the ``||sprites:Sprites||`` category. Select the first code block and drag and drop it underneath the background block.
-Similarly to what we did with the background, select the ``Gallery`` button and pick a sprite character that you like. 
+Select the **Gallery** button and pick a sprite character that you like. 
 
 To rename the sprite something more descriptive, click on the ``||variables:mySprite||`` dropdown and select ``||variables:rename variable||`` and then type in a name for the sprite that makes sense. 
 
@@ -289,9 +293,8 @@ let superStar = sprites.create(img`
 The sprite will appear in the middle of the game screen by default, but we can change that!
 Select the ``||sprites:Sprites||`` category in the toolbar and find the ``||sprites:set mySprite position to||``. 
 
-MakeCode Arcade gives you two different options to move sprites around.
-One option is to manually enter number values for ``x`` and ``y`` coordinates (x represent vertical movement and y represent horizontal movement) using the two white circles.
-Alternatively, clicking inside the white box will open up a white grid that allows you to manually select where you want the sprite to go on the gameboard. For the purposes of this game, we want the spite to be located close to the bottom of the screen in the middle. 
+Change the values for the ``x`` and ``y`` coordinates (x represent horizontal movement and y represent vertical movement).
+Clicking inside the white box will open up a white grid that allows you to manually select where you want the sprite to go on the gameboard. For the purposes of this game, we want the spite to be located close to the bottom of the screen in the middle. 
 
 ```blocks
 scene.setBackgroundImage(img`
