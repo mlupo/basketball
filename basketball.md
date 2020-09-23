@@ -757,9 +757,6 @@ Just like we did for the player sprite, we need to set the position of the hoop 
 Check the hint to see what your code should look like so far. 
 
 ```blocks
-namespace SpriteKind {
-    export const hoop = SpriteKind.create()
-}
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -920,7 +917,7 @@ let net = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
-    `, SpriteKind.hoop)
+    `, SpriteKind.player)
 net.setPosition(80, 10)
 ```
 
@@ -976,7 +973,7 @@ This tells the game that we want something to happen when the ball interacts wit
 What do we want to happen when this occurs? Well we want the player to win! From the **Game** section in the toolbox find the ``||game:game over||`` code block and toggle the switch over to **win**. 
 
 ```blocks
-sprites.onOverlap(SpriteKind.Projectile, SpriteKind.hoop, function (sprite, otherSprite) {
+sprites.onOverlap(SpriteKind.Projectile, SpriteKind.player, function (sprite, otherSprite) {
     game.over(true, effects.confetti)
 })
 ```
