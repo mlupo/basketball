@@ -3,7 +3,7 @@
 ## Let's make a Basketball Game! @unplugged
 In this session we will do our best to make a kind of "Free Throw" style Basketball game!
 
-In this game, your player will move back and forth, while trying to throw the ball into the net.
+In this game, your player will move back and forth, while trying to throw the ball into the net. 
 
 ## _
 ### Create/ Choose Background 
