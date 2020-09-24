@@ -8,13 +8,15 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "basketball.md"
+        "basketball.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.3.3",
+        "target": "1.2.6",
         "targetId": "arcade"
     },
     "supportedTargets": [
